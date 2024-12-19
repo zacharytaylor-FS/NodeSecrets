@@ -12,6 +12,7 @@ Install wdv4200-zacharytaylor-NodeSecrets with npm
 ```bash
   npm install wdv4200-zacharytaylor-NodeSecrets
   cd wdv4200-zacharytaylor-NodeSecrets
+  docker-compose up --build
 ```
     
 ## Environment Variables
