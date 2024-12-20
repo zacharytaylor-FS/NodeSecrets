@@ -4,10 +4,10 @@ const exec = require('child_process').exec;
 require('dotenv').config();
 
 //! HARDCODING
-const USERNAME1 = 'example1';
-const PASS1 = 'password1';
-const PORT1 = 9999
-console.log(`Hardcoding variables: ${USERNAME1}, ${PASS1}, ${PORT1}`)
+// const USERNAME1 = 'example1';
+// const PASS1 = 'password1';
+// const PORT1 = 9999
+// console.log(`Hardcoding variables: ${USERNAME1}, ${PASS1}, ${PORT1}`)
 
 //* ENVIRONMENT VARIABLES
 const USERNAME = process.env.USERNAME
@@ -19,7 +19,6 @@ console.log(`Env variables: ${USERNAME}, ${PASS}, ${PORT}`)
 router.get('/', (req, res, next) => {
   res.render('index', { 
     title: process.env.FRAMEWORK, 
-    hardcoding: `${USERNAME1},${PASS1},${PORT1}`,
     envVariables: `${USERNAME},${PASS},${PORT}` 
   });
 });

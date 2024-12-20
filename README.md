@@ -19,7 +19,7 @@ Install wdv4200-zacharytaylor-NodeSecrets with npm
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`HOSTNAME`
+`HOST`
 
 `PORT`
 
@@ -34,3 +34,11 @@ To run this project, you will need to add the following environment variables to
 `NODE_ENV`
 
 `DOTENV_KEY`
+
+`FRAMEWORK`
+
+`HELLO`
+
+`NAME`
+
+`AGE`
