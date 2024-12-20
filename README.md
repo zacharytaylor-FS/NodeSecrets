@@ -30,3 +30,7 @@ To run this project, you will need to add the following environment variables to
 `NAME`
 
 `AGE`
+
+`NODE_ENV`
+
+`DOTENV_KEY`
